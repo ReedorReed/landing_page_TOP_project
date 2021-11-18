@@ -63,19 +63,31 @@ border: none;
 text-align: center;
 font-size: 14px;
 }
+.title1 {
+    text-shadow: .5px .5px 1px black;
+}
 
 /* Mid-top */
 
 .mid-top {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 
 }
 
 .tools {
     display: flex;
-    
-    
+    flex-basis: auto;
+}
+
+.fa-html5 {
+    color: rgb(15, 84, 233);
+}
+.fa-css3-alt {
+    color: red;
+}
+.fa-js {
+    color: green;
 }
