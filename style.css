@@ -73,6 +73,7 @@ font-size: 14px;
     text-align: center;
     margin-bottom: 32px;
     margin-top: 50px;
+    text-shadow: .2px .2px 1px whitesmoke;
 }
 
 .mid-top {
@@ -83,6 +84,7 @@ font-size: 14px;
     text-align: center;
     /* height: 467.88px; */
     margin-bottom: 200px;
+    text-shadow: .2px .2px 1px whitesmoke;
 
 }
 
@@ -93,14 +95,17 @@ font-size: 14px;
     color: rgb(15, 84, 233);
     width: 100px;
     height: 100px;
+    text-shadow: .5px .5px 1px black;
 }
 .fa-css3-alt {
     color: red;
     width: 100px;
     height: 100px;
+    text-shadow: .5px .5px 1px black;
 }
 .fa-js {
     color: green;
     width: 100px;
     height: 100px;
+    text-shadow: .5px .5px 1px black;
 }
