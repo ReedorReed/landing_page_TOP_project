@@ -69,25 +69,38 @@ font-size: 14px;
 
 /* Mid-top */
 
+.h2-title {
+    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 50px;
+}
+
 .mid-top {
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
+    gap: 52px;
+    text-align: center;
+    /* height: 467.88px; */
+    margin-bottom: 200px;
 
 }
 
-.tools {
-    display: flex;
-    flex-basis: auto;
-}
 
+
+/* --icons-- */
 .fa-html5 {
     color: rgb(15, 84, 233);
+    width: 100px;
+    height: 100px;
 }
 .fa-css3-alt {
     color: red;
+    width: 100px;
+    height: 100px;
 }
 .fa-js {
     color: green;
+    width: 100px;
+    height: 100px;
 }
