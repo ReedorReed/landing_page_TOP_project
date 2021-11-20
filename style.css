@@ -54,7 +54,7 @@ h1{
 p {
     color: whitesmoke;
 }
-button {
+.btn {
 color: whitesmoke;
 background-color: rgb(15, 84, 233);
 border-radius: 5px;
@@ -82,13 +82,10 @@ font-size: 14px;
     align-items: center;
     gap: 52px;
     text-align: center;
-    /* height: 467.88px; */
-    margin-bottom: 200px;
+    margin-bottom: 160px;
     text-shadow: .2px .2px 1px whitesmoke;
 
 }
-
-
 
 /* --icons-- */
 .fa-html5 {
@@ -108,4 +105,92 @@ font-size: 14px;
     width: 100px;
     height: 100px;
     text-shadow: .5px .5px 1px black;
+}
+
+/* -- Mid bottom -- */
+
+.mid-btm {
+    height: 250px;
+    width: auto;
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.text-qte {
+    text-align: center;
+    flex: 0 0 500px;
+    word-wrap: break-word;
+    padding-top: 50px;
+    padding-left: 200px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.text-headline {
+    align-self: flex-end;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    
+}
+
+/* Bottom */
+
+.bottom {
+    display: flex;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    display: flex;
+    background: #3882f6;
+    height: 80px;
+    width: 800px;
+    justify-content: space-evenly;
+    box-shadow: .2px .2px 1px black;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    text-shadow: .2px .2px 1px black;
+}
+
+.text-headl {
+    font-size: 18px;
+    font-weight: bolder;
+    color: seashell;
+    margin: 5px;
+}
+.text-sub {
+    color: seashell;
+    margin-bottom: 5px;
+}
+.cta_btn {
+    color: whitesmoke;
+    background-color: rgb(15, 84, 233);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    justify-content: flex-end;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    background: #253a4a;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-text {
+    color: seashell;
+    text-shadow: .2px .2px 1px black;
 }
